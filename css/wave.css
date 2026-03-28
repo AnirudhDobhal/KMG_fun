@@ -7,6 +7,14 @@
   transform: rotateX(70deg) rotateZ(35deg);
 }
 
+@media (max-width: 768px) {
+  .sea {
+    width: 60vw;
+    height: 60vw;
+    margin: 20px auto;
+  }
+}
+
 /* Enhanced wave animations for more alien transmission effect */
 .wave {
   position: absolute;
