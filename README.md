@@ -2,7 +2,14 @@
 
 Welcome to Project Jadoo, a delightful and nostalgic web project that draws inspiration from the iconic Bollywood movie "Koi Mil Gaya." This repository showcases an interactive web application created with HTML, CSS, and JavaScript.
 
-[You can Test this Project's Working by clicking here (Might not work good in Mobiles)](https://yadavnikhil03.github.io/Jadoo-Project/).
+[You can Test this Project's Working by clicking here](https://anirudhdobhal.github.io/KMG_fun/).
+
+## 👽 New: Self-Assistive Guide Mode
+Communicate like Rohit Mehra! The interface now includes a **Proactive Guide System** that walks you through the legendary 14-note sequence.
+
+- **Glowing Hints:** The interface pulses specifically on the key you need to press.
+- **Dynamic Instructions:** Real-time on-screen messages guide the next step.
+- **Progression Tracker:** A step-by-step indicator (e.g., Step 3/14) tracks your communication success.
 
 ## Key Features
 
@@ -12,20 +19,21 @@ Welcome to Project Jadoo, a delightful and nostalgic web project that draws insp
 
 - **Creative Visual Elements:** The project goes beyond sound, incorporating captivating visual elements, including CRT monitor aesthetics and waves, to enhance the overall experience.
 
-- **Made with Love:** Crafted by Nikhil, Project Jadoo is a labor of love, designed to evoke fond memories and a strong connection to the heartwarming film.
+- **Self-Assistive Protocol:** Integrated teaching mode for the "Koi Mil Gaya" sequence.
 
 ## How to Use
 
 1. Clone this repository to your local machine.
-2. Open the `index.html` file in your web browser.
-3. Press keys on your keyboard to trigger the iconic sound and enjoy the immersive experience.
+2. Open the `index.html` file in your web browser or use a live server.
+3. Follow the on-screen **Guide Mode** to establish communication with Jadoo!
 
-**Note:** Ensure that your browser supports the necessary APIs for the best experience.
+**Note:** Ensure that your browser supports the necessary Web Audio APIs for the best experience.
 
-## Contribution
+## Credits & Contribution
 
-Project Jadoo is a showcase and tribute to the charm of "Koi Mil Gaya." Contributions are not being accepted. Feel free to explore, share, and enjoy the nostalgia.
+Project Jadoo is a showcase and tribute to the charm of "Koi Mil Gaya."
 
-We hope you have a fantastic time with this project. If you have any suggestions, improvements, or feedback, please don't hesitate to share it with us.
+- **Original Project:** Created by Nikhil.
+- **Guide Mode Enhancements:** Developed to make the experience interactive and self-guided.
 
 **Enjoy the magic of Jadoo!**
