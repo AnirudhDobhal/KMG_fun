@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,13 +13,16 @@
   <link rel="stylesheet" href="css/ellipse.css">
   <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
   <!-- Audio Preloader -->
   <div id="audio-loader" class="audio-loader">
     <div class="loader-inner">
       <div class="alien-icon"></div>
       <div class="loading-text">INITIALIZING ALIEN COMMUNICATION SYSTEM</div>
-      <div class="progress-bar"><div class="progress"></div></div>
+      <div class="progress-bar">
+        <div class="progress"></div>
+      </div>
     </div>
   </div>
 
@@ -27,7 +31,7 @@
     <div class="stars"></div>
     <div class="twinkling"></div>
     <div class="clouds"></div>
-    
+
     <!-- Animated UFO -->
     <div class="ufo-container">
       <div class="ufo">
@@ -36,10 +40,10 @@
         <div class="beam"></div>
       </div>
     </div>
-    
+
     <!-- Floating Particles -->
     <div class="particles-container"></div>
-    
+
     <div class="landing-content">
       <!-- Left Terminal Panel -->
       <div class="terminal-panel left">
@@ -53,12 +57,13 @@
           <div class="terminal-line">><span class="typing-text"> INITIALIZING SYSTEMS...</span></div>
           <div class="terminal-line">><span class="typing-text"> CALIBRATING SIGNAL ARRAYS...</span></div>
           <div class="terminal-line">><span class="typing-text"> CONNECTING TO SATELLITE NETWORK...</span></div>
-          <div class="terminal-line">><span class="typing-text"> SEARCHING FOR EXTRATERRESTRIAL FREQUENCIES...</span></div>
+          <div class="terminal-line">><span class="typing-text"> SEARCHING FOR EXTRATERRESTRIAL FREQUENCIES...</span>
+          </div>
           <div class="terminal-line">><span class="typing-text"> ALL SYSTEMS READY.</span></div>
           <div class="terminal-line active">><span class="typing-text"> AWAITING USER INPUT...</span></div>
         </div>
       </div>
-      
+
       <!-- Central Info Panel -->
       <div class="central-panel">
         <div class="logo-container">
@@ -70,15 +75,15 @@
           </div>
           <h1 class="jadoo-text">JADOO</h1>
         </div>
-        
+
         <div class="tagline">
           <span>ADVANCED ALIEN COMMUNICATION INTERFACE</span>
         </div>
-        
+
         <div class="movie-reference">
           <span>INSPIRED BY "KOI MIL GAYA"</span>
         </div>
-        
+
         <div class="enter-container">
           <button class="enter-button">
             <span class="enter-text">ESTABLISH CONNECTION</span>
@@ -87,7 +92,7 @@
           <div class="keyboard-hint">PRESS <span class="key-badge">ENTER</span> TO BEGIN</div>
         </div>
       </div>
-      
+
       <!-- Right Terminal Panel -->
       <div class="terminal-panel right">
         <div class="terminal-header">
@@ -126,11 +131,11 @@
           </div>
         </div>
       </div>
-      
+
       <!-- Credit Line -->
       <div class="credit-line">
         <span>DEVELOPED BY</span>
-        <span class="dev-name">NIKHIL</span>
+        <span class="dev-name">Anirudh</span>
         <span class="version-number">v1.2.4</span>
       </div>
     </div>
@@ -144,7 +149,7 @@
       <div class="grid-overlay"></div>
       <div class="scan-line"></div>
       <div class="noise-overlay"></div>
-      
+
       <!-- Data Transmission Particles -->
       <div class="data-particles-container"></div>
 
@@ -162,23 +167,30 @@
           <div class="frequency-meters">
             <div class="meter">
               <div class="meter-label">ALPHA</div>
-              <div class="meter-bar"><div class="meter-level"></div></div>
+              <div class="meter-bar">
+                <div class="meter-level"></div>
+              </div>
             </div>
             <div class="meter">
               <div class="meter-label">BETA</div>
-              <div class="meter-bar"><div class="meter-level"></div></div>
+              <div class="meter-bar">
+                <div class="meter-level"></div>
+              </div>
             </div>
             <div class="meter">
               <div class="meter-label">GAMMA</div>
-              <div class="meter-bar"><div class="meter-level"></div></div>
+              <div class="meter-bar">
+                <div class="meter-level"></div>
+              </div>
             </div>
           </div>
-          
+
           <!-- Transmission Wave Container will be added here by JS -->
-          
+
           <div class="control-buttons">
             <div class="key-instructions">
-              <p class="sequence-hint">Koi Mil Gaya Sequence: <span class="sequence-text">B C F E B C E D B C F E D C</span></p>
+              <p class="sequence-hint">Koi Mil Gaya Sequence: <span class="sequence-text">B C F E B C E D B C F E D
+                  C</span></p>
               <div class="key-row">
                 <div class="key" data-key="66">B</div>
                 <div class="key" data-key="67">C</div>
@@ -187,12 +199,13 @@
                 <div class="key" data-key="70">F</div>
               </div>
               <div class="instruction-box">
-                <p id="dynamic-instruction" class="instruction-text">OK, PRESS <span class="next-key">B</span> TO BEGIN...</p>
+                <p id="dynamic-instruction" class="instruction-text">OK, PRESS <span class="next-key">B</span> TO
+                  BEGIN...</p>
                 <div class="sequence-progress">STEP <span id="current-step">1</span> OF 14</div>
               </div>
             </div>
           </div>
-          
+
           <div class="connection-strength">
             <div class="strength-label">CONNECTION STRENGTH</div>
             <div class="strength-indicator">
@@ -256,11 +269,12 @@
           </div>
         </div>
       </div>
-      
+
       <!-- Footer Data Readouts -->
       <footer class="dashboard-footer">
         <div class="data-stream">
-          <pre class="data-text">UPLINK: ACTIVE   PING: 17.23ms   SIGNAL: 89%   ENCRYPTION: ENABLED   ORIGIN: PROXIMA CENTAURI   TRANSMISSION MODE: OM-WAVE   JADOO PROTOCOL: ACTIVE   SIGNAL STRENGTH: OPTIMAL   COORDINATES: 382.144.7721   SPECTRAL ANALYSIS: IN PROGRESS   FREQUENCY DEVIATION: 0.00731Hz   GALACTIC SECTOR: PHI-3   MEMORY BUFFER: 87%   DATA STREAM INTACT   RADIATION LEVELS: NOMINAL</pre>
+          <pre
+            class="data-text">UPLINK: ACTIVE   PING: 17.23ms   SIGNAL: 89%   ENCRYPTION: ENABLED   ORIGIN: PROXIMA CENTAURI   TRANSMISSION MODE: OM-WAVE   JADOO PROTOCOL: ACTIVE   SIGNAL STRENGTH: OPTIMAL   COORDINATES: 382.144.7721   SPECTRAL ANALYSIS: IN PROGRESS   FREQUENCY DEVIATION: 0.00731Hz   GALACTIC SECTOR: PHI-3   MEMORY BUFFER: 87%   DATA STREAM INTACT   RADIATION LEVELS: NOMINAL</pre>
         </div>
       </footer>
 
@@ -307,4 +321,5 @@
   <script src="js/landing.js"></script>
   <script src="js/crt.js"></script>
 </body>
+
 </html>

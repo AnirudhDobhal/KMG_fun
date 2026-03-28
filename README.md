@@ -33,7 +33,7 @@ Communicate like Rohit Mehra! The interface now includes a **Proactive Guide Sys
 
 Project Jadoo is a showcase and tribute to the charm of "Koi Mil Gaya."
 
-- **Original Project:** Created by Nikhil.
+- **Original Project:** Created by Anirudh Dobhal.
 - **Guide Mode Enhancements:** Developed to make the experience interactive and self-guided.
 
 **Enjoy the magic of Jadoo!**
